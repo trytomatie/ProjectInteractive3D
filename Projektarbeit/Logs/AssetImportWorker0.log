@@ -15,11 +15,11 @@ C:/Users/tryto/Desktop/Git/ProjectInteractive3D/Projektarbeit
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58043
+64775
 Successfully changed project path to: C:/Users/tryto/Desktop/Git/ProjectInteractive3D/Projektarbeit
 C:/Users/tryto/Desktop/Git/ProjectInteractive3D/Projektarbeit
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 87.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001790 seconds.
+Registered in 0.002020 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 103.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.613 seconds
+- Completed reload, in  0.656 seconds
 Domain Reload Profiling:
-	ReloadAssembly (613ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (657ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (477ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (516ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
+			SetupTypeCache (160ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (203ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004345 seconds.
+Registered in 0.005216 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 147.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.451 seconds
+- Completed reload, in  1.630 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1452ms)
-		BeginReloadAssembly (144ms)
+	ReloadAssembly (1631ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1251ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1416ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (343ms)
+			SetupTypeCache (370ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (627ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (747ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (141ms)
+				RefreshPlugins (148ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (145ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -110,139 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4217 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.0 MB.
-System memory in use after: 215.2 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4690.
-Total: 4.677400 ms (FindLiveObjects: 0.455900 ms CreateObjectMapping: 0.123500 ms MarkObjects: 4.059600 ms  DeleteObjects: 0.036400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/FBX/Terrace_BlockoutV3.fbx
-  artifactKey: Guid(1c74c69438654f44dbfbbe1e67bb8922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Terrace_BlockoutV3.fbx using Guid(1c74c69438654f44dbfbbe1e67bb8922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120d5889fd585b0c6ba35e4f59dedf83') in 1.061416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.934468 seconds.
-  path: Assets/FBX/Terrace_BlockoutV3.fbx
-  artifactKey: Guid(1c74c69438654f44dbfbbe1e67bb8922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Terrace_BlockoutV3.fbx using Guid(1c74c69438654f44dbfbbe1e67bb8922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b730cd62f42097c588d5e935ba353b') in 0.176683 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004517 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.470 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1471ms)
-		BeginReloadAssembly (299ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (31ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (117ms)
-		EndReloadAssembly (1109ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (380ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 217.6 MB.
-System memory in use after: 217.8 MB.
+Unloading 4607 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.5 MB.
+System memory in use after: 231.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4818.
-Total: 4.838400 ms (FindLiveObjects: 0.412100 ms CreateObjectMapping: 0.126700 ms MarkObjects: 4.269900 ms  DeleteObjects: 0.028200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004493 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.492 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1492ms)
-		BeginReloadAssembly (220ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (99ms)
-		EndReloadAssembly (1210ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (417ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (299ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 216.7 MB.
-System memory in use after: 216.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4820.
-Total: 5.054400 ms (FindLiveObjects: 0.472300 ms CreateObjectMapping: 0.137700 ms MarkObjects: 4.411400 ms  DeleteObjects: 0.031600 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5084.
+Total: 4.961700 ms (FindLiveObjects: 0.672500 ms CreateObjectMapping: 0.190100 ms MarkObjects: 3.976200 ms  DeleteObjects: 0.121800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -256,288 +131,1616 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004337 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.481 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1482ms)
-		BeginReloadAssembly (201ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (1200ms)
-			LoadAssemblies (165ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (365ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (422ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 216.7 MB.
-System memory in use after: 217.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4822.
-Total: 5.583500 ms (FindLiveObjects: 0.704600 ms CreateObjectMapping: 0.279900 ms MarkObjects: 4.551900 ms  DeleteObjects: 0.044200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_light.exr
+  artifactKey: Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_light.exr using Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c036dcec3ebe5c2ce4bd967a5252b4d6') in 0.113162 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004369 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.498 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1499ms)
-		BeginReloadAssembly (230ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (103ms)
-		EndReloadAssembly (1204ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (366ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (433ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 216.8 MB.
-System memory in use after: 217.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4824.
-Total: 4.916300 ms (FindLiveObjects: 0.469200 ms CreateObjectMapping: 0.126600 ms MarkObjects: 4.254500 ms  DeleteObjects: 0.064300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_dir.png
+  artifactKey: Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_dir.png using Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce5bdc7de6f0ce2e272dcf304623062') in 0.074062 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004695 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.489 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1490ms)
-		BeginReloadAssembly (208ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1208ms)
-			LoadAssemblies (178ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (429ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (300ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 216.8 MB.
-System memory in use after: 217.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4826.
-Total: 5.825100 ms (FindLiveObjects: 0.480800 ms CreateObjectMapping: 0.137300 ms MarkObjects: 5.172300 ms  DeleteObjects: 0.033000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_dir.png
+  artifactKey: Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_dir.png using Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d20908831297362e8dab49298fe72f5') in 0.017733 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006206 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.370 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1370ms)
-		BeginReloadAssembly (189ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (1116ms)
-			LoadAssemblies (147ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (396ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (267ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 216.8 MB.
-System memory in use after: 217.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4828.
-Total: 4.882200 ms (FindLiveObjects: 0.491900 ms CreateObjectMapping: 0.247300 ms MarkObjects: 4.108600 ms  DeleteObjects: 0.032700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Scenes/MainScene/LightingData.asset
+  artifactKey: Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/LightingData.asset using Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee1659b3575b84cad93a30467e1aa29') in 0.011959 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005640 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.518 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1518ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1233ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (431ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 216.8 MB.
-System memory in use after: 217.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4830.
-Total: 5.127000 ms (FindLiveObjects: 0.554400 ms CreateObjectMapping: 0.227500 ms MarkObjects: 4.298500 ms  DeleteObjects: 0.044200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_light.exr using Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f68bb367fef3e25e42472cc9c0e60e') in 0.015872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_dir.png
+  artifactKey: Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_dir.png using Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8538ee69fb6c2be7ec7b75bf7972a81d') in 0.015971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_dir.png
+  artifactKey: Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_dir.png using Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fbc12383eb405d190e80fbc570befa') in 0.016251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_dir.png
+  artifactKey: Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_dir.png using Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db48864581e2490b492ee83dc588779') in 0.023742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_light.exr
+  artifactKey: Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_light.exr using Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a131e2aecaa37149b26aa86fadc890') in 0.050262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_light.exr
+  artifactKey: Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_light.exr using Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b317ed94eb56578764b5bb581b34cc') in 0.032454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_dir.png
+  artifactKey: Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_dir.png using Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056f555debd504f2b8f0c07e888175eb') in 0.020594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_dir.png using Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de086a0a6bdd6b6cd81b0f3bf1302c8') in 0.017810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_light.exr
+  artifactKey: Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_light.exr using Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf5264f7e8b0b9aebaab19c4a28a55d') in 0.014434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_light.exr
+  artifactKey: Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_light.exr using Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb1873f87533f8463872472e010ad06') in 0.014271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_light.exr
+  artifactKey: Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_light.exr using Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8d106dfef71de44ac4cd43016f1e44') in 0.014633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_dir.png
+  artifactKey: Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_dir.png using Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e2eb0a27722412a5e02968cc6d5bb8') in 0.017419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_light.exr using Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674498c04aa660b01b92daa41467cc45') in 0.013924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_dir.png
+  artifactKey: Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_dir.png using Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d827b5cdad2815fd14d24cd91fdd0ce') in 0.015975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_dir.png
+  artifactKey: Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_dir.png using Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5adea94e251aca5039ea1b8866ed13') in 0.015219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_light.exr
+  artifactKey: Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_light.exr using Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b76e62539174f38cbbeaf29756613c') in 0.014231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_dir.png
+  artifactKey: Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_dir.png using Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00e30e378cf4af8c2833cfa5006ab2a') in 0.014996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_light.exr
+  artifactKey: Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_light.exr using Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fe11b5a034675f49f603db0516085a') in 0.014901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_light.exr
+  artifactKey: Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_light.exr using Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a60fb2ef1221a5ff777cd573073e79a') in 0.014819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_dir.png
+  artifactKey: Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_dir.png using Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c0e3051c9892aa6500c0fca667b8fa') in 0.015051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_light.exr
+  artifactKey: Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_light.exr using Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e02fa9e3a3d725a86e5d1f77255aeb') in 0.015477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_light.exr using Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0053e2c992530f03a29489f761d6dbf3') in 0.014364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_dir.png using Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a72a99d5315e428386058b6b3c73502') in 0.014558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_light.exr
+  artifactKey: Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_light.exr using Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c41492800d5c0e5a13d52ee70f49cd0') in 0.015156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_dir.png
+  artifactKey: Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_dir.png using Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85f26ca985bf9a86898cc7d9054fb8e') in 0.015608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Scenes/MainScene/Sky and Fog Settings Profile.asset
+  artifactKey: Guid(44103d71173cca04ba2e1cb2601d4d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Sky and Fog Settings Profile.asset using Guid(44103d71173cca04ba2e1cb2601d4d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564e6894ddf7f78462b884031347ec84') in 0.056913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_dir.png using Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6676c20967a320446ade75b4559062d9') in 0.016014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_light.exr
+  artifactKey: Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_light.exr using Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1128d144be2aa18f579d981a03ba6f53') in 0.014392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_dir.png
+  artifactKey: Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_dir.png using Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6900905cabc8f3176bfd7a692b78d06b') in 0.015407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_light.exr
+  artifactKey: Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_light.exr using Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c416012717189504166a25a8a7d14780') in 0.016419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_light.exr using Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2440fe24ce1b58cf511f49d82f011a') in 0.016343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_dir.png
+  artifactKey: Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_dir.png using Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70348d7111fb644713ae9ceccca8bfd9') in 0.014663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 502.096412 seconds.
+  path: Assets/Scenes/MainScene/LightingData.asset
+  artifactKey: Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/LightingData.asset using Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73b53c1b7f2f9bd027fa23b06c9ea3a') in 0.012236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_light.exr
+  artifactKey: Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_light.exr using Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4665627e8228b66a8a223bf27d4af76') in 0.025526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_dir.png
+  artifactKey: Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_dir.png using Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0163a7b90d31f8a33af26d1c1243c5') in 0.017206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_dir.png
+  artifactKey: Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_dir.png using Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fa8a196d77decf23df4774bcdc66e0') in 0.015738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_light.exr using Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3206dd49d0633d4905d49e917f5930b') in 0.018518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_dir.png
+  artifactKey: Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_dir.png using Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8af5943743ec792a9b49574cd4d15d6') in 0.029659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_dir.png
+  artifactKey: Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_dir.png using Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1ff289a1085c0efec2b7266b57c26d') in 0.017843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_dir.png
+  artifactKey: Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_dir.png using Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31ff690a7aa649ae2296ad1b9660347') in 0.014199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_light.exr
+  artifactKey: Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_light.exr using Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2235d6e41e63069922d9ced3deb70acd') in 0.010147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_light.exr
+  artifactKey: Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_light.exr using Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f78d8c22dba681c8f10b137050b7f7') in 0.010052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_dir.png
+  artifactKey: Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_dir.png using Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf6fd2e4d8f885e6ad5f4d54b588872') in 0.013310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_dir.png using Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1516873cd1efde572254cc8f67ee74') in 0.013601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_light.exr
+  artifactKey: Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_light.exr using Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcb00cfb0631a200c080840d2be635b') in 0.010811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_light.exr
+  artifactKey: Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_light.exr using Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f05ce545312c309d8e27de0a8727b1') in 0.012415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_light.exr
+  artifactKey: Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_light.exr using Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6725538f2bcb51f839230c09be237460') in 0.012289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_dir.png
+  artifactKey: Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_dir.png using Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cfe25c4a26fa4cde51a49b26860d4e') in 0.013995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_light.exr using Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ac1062994414072a91360747aea6d1') in 0.012207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_dir.png
+  artifactKey: Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_dir.png using Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4de50b4fd38d3719239b118be15f0c') in 0.018007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_dir.png
+  artifactKey: Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_dir.png using Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e42d4b711abacfa950986e3250e8cf') in 0.013377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_light.exr
+  artifactKey: Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_light.exr using Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cc2954a0784be1bf2b7acb2883d05e') in 0.010004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_dir.png
+  artifactKey: Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_dir.png using Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899f217dc1b948ff21a289191f435ebc') in 0.013408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_light.exr
+  artifactKey: Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_light.exr using Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828758ef540888fc8b2519f308305c92') in 0.009968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_light.exr
+  artifactKey: Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_light.exr using Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862437c6493ee633b073c9aeb44c1b02') in 0.009861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_dir.png
+  artifactKey: Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_dir.png using Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a17ac557c517d094d5a39a531d2059') in 0.015036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_light.exr
+  artifactKey: Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_light.exr using Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3989e2c81b7180a45de47403e8afd4a') in 0.012213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_light.exr using Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddccffc07430b46e079b54f71757ab3') in 0.010821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_dir.png using Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6831a175c5f0ae94db9497676b01829') in 0.013721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_light.exr
+  artifactKey: Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_light.exr using Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6eff8f3376fc6c26909a55ef3bafba') in 0.009006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_dir.png
+  artifactKey: Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_dir.png using Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db067027ea45a1331c59270afebd102a') in 0.014209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_dir.png using Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9c9d7725468ef0b360fbc18d3393cc') in 0.013435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_light.exr
+  artifactKey: Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_light.exr using Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b319ad511cc1e7721977753c8034783') in 0.008977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_dir.png
+  artifactKey: Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_dir.png using Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4744f511f9ec18e8e303a0cea61ac49') in 0.011961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_light.exr
+  artifactKey: Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_light.exr using Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcf558bc681aca06becd9af68a2b158') in 0.015019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_light.exr using Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b0a3ab06b896034abfe1cec12acac9') in 0.014167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_dir.png
+  artifactKey: Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_dir.png using Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b19867c3526cb2f952afbc4455a5f69') in 0.014203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 761.404153 seconds.
+  path: Assets/Scenes/MainScene/LightingData.asset
+  artifactKey: Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/LightingData.asset using Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e73d984bad7edff164fcb2851136327') in 0.011065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_dir.png
+  artifactKey: Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_dir.png using Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a3ff11a3935e3037a5069c4ec0a4e4') in 0.014116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-19_comp_dir.png
+  artifactKey: Guid(ac460c0c76f9b83478dd86ef99186a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-19_comp_dir.png using Guid(ac460c0c76f9b83478dd86ef99186a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6f6241f84b67c7ec6a6f25e9afd882') in 0.019761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-23_comp_dir.png
+  artifactKey: Guid(03619cc965983554bad284e7e07a0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-23_comp_dir.png using Guid(03619cc965983554bad284e7e07a0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef9c672d72ebd642358b8e97888cb83') in 0.018863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000934 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_dir.png
+  artifactKey: Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_dir.png using Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6e2438f4a8c8033ec6e52e295c879d') in 0.027728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-18_comp_dir.png
+  artifactKey: Guid(412616e5006e8d1428bd34e9da9762cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-18_comp_dir.png using Guid(412616e5006e8d1428bd34e9da9762cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2243219a2ba15ec6c404817afbd33bd') in 0.018423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-20_comp_dir.png
+  artifactKey: Guid(74a16cf5919496041b4dfbfbf498118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-20_comp_dir.png using Guid(74a16cf5919496041b4dfbfbf498118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0abe1df936b92d1f3e27129ef7085ed') in 0.018693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-22_comp_dir.png
+  artifactKey: Guid(2d5306fe55007634bb1708b1b5cf369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-22_comp_dir.png using Guid(2d5306fe55007634bb1708b1b5cf369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca628744425bf69242cb540f04ada04') in 0.016862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_light.exr
+  artifactKey: Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_light.exr using Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b2ff460c719f072660e33e8cd4d3b0') in 0.014331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-18_comp_light.exr
+  artifactKey: Guid(020a72a49e0f2ab469f4eca2488a3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-18_comp_light.exr using Guid(020a72a49e0f2ab469f4eca2488a3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2699678a545fecb8fdb7435d6a44ba18') in 0.017499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_light.exr
+  artifactKey: Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_light.exr using Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cd171b103c2ab9617ee1f0e970d057') in 0.017380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_dir.png using Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd242559c2b189dca2e3c5e03b5eb6eb') in 0.012834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_light.exr
+  artifactKey: Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_light.exr using Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf103eb17bb1b46ec4b2fb817ac9282') in 0.011540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_dir.png
+  artifactKey: Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_dir.png using Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ae3ae7cdf63b1dcd9637a2890144b3') in 0.014431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_dir.png
+  artifactKey: Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_dir.png using Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ca09925573fa90f51b070c8ba7d9bf') in 0.015853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-17_comp_dir.png
+  artifactKey: Guid(5bc743e3061c3e247afcccc09846c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-17_comp_dir.png using Guid(5bc743e3061c3e247afcccc09846c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec17d1a0d8e196790956bdb2083ae5ea') in 0.016850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_light.exr
+  artifactKey: Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_light.exr using Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee11beca34c1fc67ea0a4b390d36c076') in 0.016893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_dir.png
+  artifactKey: Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_dir.png using Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcee3a30b8111f75eae69a263d08e077') in 0.021407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_light.exr
+  artifactKey: Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_light.exr using Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890966fc6a61c65caa0baeefbfd4e0ea') in 0.015245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_light.exr
+  artifactKey: Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_light.exr using Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4e6257d27ca56cb654c215d46e21d8') in 0.016403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_dir.png using Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde756673b72598206bca1653921c58f') in 0.014703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-21_comp_light.exr
+  artifactKey: Guid(98ff18219039c9e4387f95dbb3124034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-21_comp_light.exr using Guid(98ff18219039c9e4387f95dbb3124034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db641079a9c1053a7f6ac135972f180') in 0.015814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_light.exr
+  artifactKey: Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_light.exr using Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30d25994cca604c526e061ab4585992') in 0.014798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_light.exr
+  artifactKey: Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_light.exr using Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bdc2209bfba2d50aa954acdd176a75') in 0.017301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-21_comp_dir.png
+  artifactKey: Guid(d5fa6d19b7def37498b71779cbd2cb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-21_comp_dir.png using Guid(d5fa6d19b7def37498b71779cbd2cb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5112cf24e6af9707b7b6ff0bf6aa6073') in 0.019401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_light.exr
+  artifactKey: Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_light.exr using Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f697266ca0dfe6394aada2b05b81277c') in 0.013523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_light.exr using Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf4c5bf8a1faffce8b5dd1ba77cd482') in 0.015872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_dir.png
+  artifactKey: Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_dir.png using Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1b8daea95006b0ba15dbc41ace7f1a') in 0.013961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_dir.png
+  artifactKey: Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_dir.png using Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c4abe6d742ace7a275b95311ae8c94') in 0.015388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-23_comp_light.exr
+  artifactKey: Guid(c6322074c60504349a21cfbf4f60ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-23_comp_light.exr using Guid(c6322074c60504349a21cfbf4f60ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7404881b0176ce0daf4656cfec0c604') in 0.016520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-17_comp_light.exr
+  artifactKey: Guid(3a04c83ced4ab364e9cf00f2429ea20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-17_comp_light.exr using Guid(3a04c83ced4ab364e9cf00f2429ea20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5718aa52faa08e0a874d4f0f89f8e75') in 0.016422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_light.exr using Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91c3a7b505dfebc3bc6b0b222cf42a2') in 0.014454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_dir.png
+  artifactKey: Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_dir.png using Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdee710d7f1412b81b29a809f1e99f3c') in 0.017031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_dir.png
+  artifactKey: Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_dir.png using Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05137f6f46c3dc8c3e44b78901cd81da') in 0.014659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_light.exr
+  artifactKey: Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_light.exr using Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef26143f904f5e345afc44f104017759') in 0.010903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_dir.png
+  artifactKey: Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_dir.png using Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce141c4dc3e787836a5c93f38cd68035') in 0.013840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_light.exr
+  artifactKey: Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_light.exr using Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a19a411bed7a14ce647948f21b89a0b') in 0.011253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-19_comp_light.exr
+  artifactKey: Guid(e90faa2a6822e2847b0f74e4b5664f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-19_comp_light.exr using Guid(e90faa2a6822e2847b0f74e4b5664f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5926267e9d97297d333e56b1a161cb5a') in 0.016243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_light.exr
+  artifactKey: Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_light.exr using Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091e193509fc965398d6fd04416f9384') in 0.014726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_light.exr using Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec1fb797a35b928d317371cd961c208') in 0.015053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_dir.png
+  artifactKey: Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_dir.png using Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd598cfe6b04c5b68707c62188ea1f661') in 0.014584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_dir.png
+  artifactKey: Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_dir.png using Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad5cd71d67815f6d52dbfbb319babda') in 0.014369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_light.exr using Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd44eb05a79ac6ba573ef2403b85641') in 0.013203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_light.exr
+  artifactKey: Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_light.exr using Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf296b31564adf494b0316ac492e5f0a') in 0.018108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-20_comp_light.exr
+  artifactKey: Guid(a172b0732c96749449501c3da80d2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-20_comp_light.exr using Guid(a172b0732c96749449501c3da80d2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0935fdbdb5adff433d4571db9555866a') in 0.019014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_dir.png
+  artifactKey: Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_dir.png using Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0cfe82233348d055780a63aac2245e') in 0.013631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_dir.png using Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade169b32596cefbea77fa58fccde7d1') in 0.012426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_dir.png
+  artifactKey: Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_dir.png using Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1f9d6a69f73d2b09513169e37000fd') in 0.016275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-22_comp_light.exr
+  artifactKey: Guid(2a358540ecd8dad4ca362d7774fa82a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-22_comp_light.exr using Guid(2a358540ecd8dad4ca362d7774fa82a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0386dae205d96e7eee507daa2e66ffe8') in 0.015027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 407.570844 seconds.
+  path: Assets/Scenes/MainScene/LightingData.asset
+  artifactKey: Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/LightingData.asset using Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865962daf14dda04c00301ac43a34e9c') in 0.016133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_dir.png
+  artifactKey: Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_dir.png using Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d0630a610667dfb3f9e3a2b3d056ae') in 0.030761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-19_comp_dir.png
+  artifactKey: Guid(ac460c0c76f9b83478dd86ef99186a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-19_comp_dir.png using Guid(ac460c0c76f9b83478dd86ef99186a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52397a08979b217d4820e59ad6a1d11a') in 0.015383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-23_comp_dir.png
+  artifactKey: Guid(03619cc965983554bad284e7e07a0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-23_comp_dir.png using Guid(03619cc965983554bad284e7e07a0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4959ebff04b2c75b7d1796028683343a') in 0.015170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_dir.png
+  artifactKey: Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_dir.png using Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc459625ca07eea9cce7bf3e6cba4b9') in 0.023053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-18_comp_dir.png
+  artifactKey: Guid(412616e5006e8d1428bd34e9da9762cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-18_comp_dir.png using Guid(412616e5006e8d1428bd34e9da9762cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec50adc2d4dec44309880911f060775') in 0.019570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-20_comp_dir.png
+  artifactKey: Guid(74a16cf5919496041b4dfbfbf498118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-20_comp_dir.png using Guid(74a16cf5919496041b4dfbfbf498118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f16f6bbd025499e097e52593dfcc8fe') in 0.016815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-22_comp_dir.png
+  artifactKey: Guid(2d5306fe55007634bb1708b1b5cf369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-22_comp_dir.png using Guid(2d5306fe55007634bb1708b1b5cf369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24bd8fb31cf26afcb1dfb68200fc442') in 0.016107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_light.exr
+  artifactKey: Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_light.exr using Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeb58e35161779ddac56a8727486340') in 0.013736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-18_comp_light.exr
+  artifactKey: Guid(020a72a49e0f2ab469f4eca2488a3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-18_comp_light.exr using Guid(020a72a49e0f2ab469f4eca2488a3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629aa262003238223ccb3acc13cda41f') in 0.014666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_light.exr
+  artifactKey: Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_light.exr using Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698059a5e2d32de99ab017748c4ad054') in 0.015089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_dir.png using Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e5436fd5be028d2e1dc1256cc99727') in 0.015947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_light.exr
+  artifactKey: Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_light.exr using Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6687e8e6de6c21b1863d81759ed3766d') in 0.017083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_dir.png
+  artifactKey: Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_dir.png using Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db074c97bf58d8c295ca14c4bda6d8ba') in 0.019352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_dir.png
+  artifactKey: Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_dir.png using Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f158ffc0c79c2727a75a9d61439a115') in 0.017515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-17_comp_dir.png
+  artifactKey: Guid(5bc743e3061c3e247afcccc09846c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-17_comp_dir.png using Guid(5bc743e3061c3e247afcccc09846c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3865d04eefa5a301cccb21e0eaf5b9f8') in 0.013961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_light.exr
+  artifactKey: Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_light.exr using Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc4dd7c530891b3609ab2dff00dd46d') in 0.013498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_dir.png
+  artifactKey: Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_dir.png using Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8747e3a0e7110039d90bfd5d8cf6aa') in 0.018131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_light.exr
+  artifactKey: Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_light.exr using Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387192739ceccda66cce636d39886895') in 0.014936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_light.exr
+  artifactKey: Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_light.exr using Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ec6e8076fcaecd273929c2d2d9a1bc') in 0.015252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_dir.png using Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081324eceacd5ec3d4c140543d2c40ad') in 0.014769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-21_comp_light.exr
+  artifactKey: Guid(98ff18219039c9e4387f95dbb3124034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-21_comp_light.exr using Guid(98ff18219039c9e4387f95dbb3124034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6d018fdbec504986c064d4f09146de') in 0.017213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_light.exr
+  artifactKey: Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_light.exr using Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3802d8600203495816e4a4b9edd66071') in 0.016050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_light.exr
+  artifactKey: Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_light.exr using Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3e31c6d3ba522da8c1e3a424f14499') in 0.016973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-21_comp_dir.png
+  artifactKey: Guid(d5fa6d19b7def37498b71779cbd2cb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-21_comp_dir.png using Guid(d5fa6d19b7def37498b71779cbd2cb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fb5ea2391c01ec2a1923be2d7dcc7c') in 0.016226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_light.exr using Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6064025e2b4f83e247640ce5fc84a3') in 0.014691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_dir.png
+  artifactKey: Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_dir.png using Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2913f72420f4feed2545b2665253092') in 0.016975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_light.exr
+  artifactKey: Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_light.exr using Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dc13c28bc8de5b1ab2e3311896ce91') in 0.016524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_dir.png
+  artifactKey: Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_dir.png using Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857b1fc752a4bde1a8566b2992c3090b') in 0.015746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-23_comp_light.exr
+  artifactKey: Guid(c6322074c60504349a21cfbf4f60ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-23_comp_light.exr using Guid(c6322074c60504349a21cfbf4f60ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3eb871dcd6eab4fa32ce0ebe587224') in 0.016898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-17_comp_light.exr
+  artifactKey: Guid(3a04c83ced4ab364e9cf00f2429ea20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-17_comp_light.exr using Guid(3a04c83ced4ab364e9cf00f2429ea20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e36c02a5a09bc6335a9de1cf6a6051') in 0.011746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_light.exr using Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd869228a2bcb6b7174b2ffbad6fdec') in 0.014459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_dir.png
+  artifactKey: Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_dir.png using Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92811cb0004c6dd20a3273d9a1dbaf41') in 0.012966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_dir.png
+  artifactKey: Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_dir.png using Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec993dca54e14e2746a9c6010050cbb') in 0.014721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_light.exr
+  artifactKey: Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_light.exr using Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00c9ce8167e5f887e309378338f191a') in 0.015724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_dir.png
+  artifactKey: Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_dir.png using Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd07aef54f97a6d8cbafeadc35ae9ac4') in 0.014234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_light.exr
+  artifactKey: Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_light.exr using Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5eb2bdd218e0ba9e1b2904c322bcb5') in 0.017360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-19_comp_light.exr
+  artifactKey: Guid(e90faa2a6822e2847b0f74e4b5664f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-19_comp_light.exr using Guid(e90faa2a6822e2847b0f74e4b5664f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa15cc85f2faeb4187b0f6e0334c85d8') in 0.013163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_light.exr
+  artifactKey: Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_light.exr using Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f50d6155be7704ef099cd29870c4510') in 0.016797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_light.exr using Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487015179dc1168706d922ca30d65280') in 0.017461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_dir.png
+  artifactKey: Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_dir.png using Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392b80f1076ea56e0f2bdef7a157c57b') in 0.018417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_dir.png
+  artifactKey: Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_dir.png using Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab418b891f63a6778c00eb8073d663c') in 0.014526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_light.exr using Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f63297297a2703b5d2f9314fca11ddd') in 0.011535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_light.exr
+  artifactKey: Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_light.exr using Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65723ea64ddf3b0871bed70b734bd499') in 0.014055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-20_comp_light.exr
+  artifactKey: Guid(a172b0732c96749449501c3da80d2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-20_comp_light.exr using Guid(a172b0732c96749449501c3da80d2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f119dbef32584c5691da96cedd09d3') in 0.014415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_dir.png
+  artifactKey: Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_dir.png using Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590334007caa41ef1d699392be274929') in 0.017625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_dir.png using Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c5821549fe2ad9ebd0b6b55baa1cde') in 0.017721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_dir.png
+  artifactKey: Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_dir.png using Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4835b1aa8f1a235492a0e0247d202ede') in 0.016300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-22_comp_light.exr
+  artifactKey: Guid(2a358540ecd8dad4ca362d7774fa82a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-22_comp_light.exr using Guid(2a358540ecd8dad4ca362d7774fa82a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e19240c7158e7df0e5da0b5a1804e2') in 0.012572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 345.117418 seconds.
+  path: Assets/Scenes/MainScene/LightingData.asset
+  artifactKey: Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/LightingData.asset using Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1744711f9a4be78cd5cfa510e1eb0b') in 0.005982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_dir.png
+  artifactKey: Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_dir.png using Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105d0ffadd24afcb096255141fd4d65c') in 0.021234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-19_comp_dir.png
+  artifactKey: Guid(ac460c0c76f9b83478dd86ef99186a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-19_comp_dir.png using Guid(ac460c0c76f9b83478dd86ef99186a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0a42df98baeb86164b3776aaf091ea') in 0.016965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-23_comp_dir.png
+  artifactKey: Guid(03619cc965983554bad284e7e07a0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-23_comp_dir.png using Guid(03619cc965983554bad284e7e07a0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f11f23f405d325e6538ff4582d30aa2') in 0.015912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_dir.png
+  artifactKey: Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_dir.png using Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37952c95897706c885a3f03b969efa1c') in 0.032500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-18_comp_dir.png
+  artifactKey: Guid(412616e5006e8d1428bd34e9da9762cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-18_comp_dir.png using Guid(412616e5006e8d1428bd34e9da9762cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c8d980ef9cefec5e5864351dce679b') in 0.018784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-20_comp_dir.png
+  artifactKey: Guid(74a16cf5919496041b4dfbfbf498118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-20_comp_dir.png using Guid(74a16cf5919496041b4dfbfbf498118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1365532c851403c7282bfd8c9808de37') in 0.016625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-22_comp_dir.png
+  artifactKey: Guid(2d5306fe55007634bb1708b1b5cf369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-22_comp_dir.png using Guid(2d5306fe55007634bb1708b1b5cf369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6889c3a0f463411c2b9c944c0fd4d7de') in 0.016112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_light.exr
+  artifactKey: Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_light.exr using Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b9b3cbd39d7e6a196931e7f08e2665') in 0.014557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-18_comp_light.exr
+  artifactKey: Guid(020a72a49e0f2ab469f4eca2488a3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-18_comp_light.exr using Guid(020a72a49e0f2ab469f4eca2488a3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8844d24e2444e4b10feca7906c04f355') in 0.014439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_light.exr
+  artifactKey: Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_light.exr using Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b226d43fb797602714381d29dfe420') in 0.015991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_dir.png using Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339402bb2cda0d916a320425defd11ec') in 0.017431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_light.exr
+  artifactKey: Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_light.exr using Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a7665a3585724e3b1caa22da9e6842') in 0.016466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_dir.png
+  artifactKey: Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_dir.png using Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc898bd5fad9c2710b07b8ca694ec3c2') in 0.029929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_dir.png
+  artifactKey: Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_dir.png using Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd908869dc25a8119455e207828024090') in 0.040791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-17_comp_dir.png
+  artifactKey: Guid(5bc743e3061c3e247afcccc09846c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-17_comp_dir.png using Guid(5bc743e3061c3e247afcccc09846c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af688f2003f74bb6c74aedea4335f6c') in 0.025031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_light.exr
+  artifactKey: Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_light.exr using Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb5ed6e422d64b136066fbe64c2aa8c') in 0.019615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_dir.png
+  artifactKey: Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_dir.png using Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7d8c5c5571edf366c25b553f5f1532') in 0.016687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_light.exr
+  artifactKey: Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_light.exr using Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ed7e1349812632ab9fbbcbe491a939') in 0.013588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_light.exr
+  artifactKey: Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_light.exr using Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344c1c74cc7f31dca61cfad1006b4091') in 0.014387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_dir.png using Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fc8829459a980fa8feb816e55a1671') in 0.015591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-21_comp_light.exr
+  artifactKey: Guid(98ff18219039c9e4387f95dbb3124034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-21_comp_light.exr using Guid(98ff18219039c9e4387f95dbb3124034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9b5dff902351e9b418d2df955818b5') in 0.018030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_light.exr
+  artifactKey: Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_light.exr using Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c848b2030be086416d0965ccc1a682a5') in 0.017826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_light.exr
+  artifactKey: Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_light.exr using Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3535c056974464fc9aecd03c950a3ddd') in 0.017320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-21_comp_dir.png
+  artifactKey: Guid(d5fa6d19b7def37498b71779cbd2cb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-21_comp_dir.png using Guid(d5fa6d19b7def37498b71779cbd2cb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c35051bc3ccfce5b3ed4dd11614e741') in 0.029390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_light.exr using Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828fa7f9e4db163038f901860283f15c') in 0.018158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_dir.png
+  artifactKey: Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_dir.png using Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58a0e72cdd907866edb275c57e91d71') in 0.016884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_light.exr
+  artifactKey: Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_light.exr using Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71dbbc22cb816ae13931f8856f1ce62') in 0.019912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_dir.png
+  artifactKey: Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_dir.png using Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c662e2aa4fecd616adf0cb4a3a309d76') in 0.045923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-23_comp_light.exr
+  artifactKey: Guid(c6322074c60504349a21cfbf4f60ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-23_comp_light.exr using Guid(c6322074c60504349a21cfbf4f60ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508b9453d7c6f20be4ba3538f9ace208') in 0.035183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000854 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-17_comp_light.exr
+  artifactKey: Guid(3a04c83ced4ab364e9cf00f2429ea20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-17_comp_light.exr using Guid(3a04c83ced4ab364e9cf00f2429ea20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad5574b4487f4d256eb2c19bfefdea6') in 0.025288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_light.exr using Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c593718ca7541b3b82f9f0f6c440cb78') in 0.019507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_dir.png
+  artifactKey: Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_dir.png using Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46d30e3e421d3ebaf64aab07b2cbb65') in 0.015907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_dir.png
+  artifactKey: Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_dir.png using Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb2c5043f835a9fdf0b40aec4bce66f') in 0.019264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_light.exr
+  artifactKey: Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_light.exr using Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a54e1d55d2ae950428ee40a380fceee') in 0.013699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_dir.png
+  artifactKey: Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_dir.png using Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24c97379f928012369bd0fd5e636b4c') in 0.016258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_light.exr
+  artifactKey: Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_light.exr using Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960c680e20d8713048636388a4bebc5a') in 0.016138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-19_comp_light.exr
+  artifactKey: Guid(e90faa2a6822e2847b0f74e4b5664f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-19_comp_light.exr using Guid(e90faa2a6822e2847b0f74e4b5664f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b46db8abee8748acb665a06141dd6fe') in 0.015977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_light.exr
+  artifactKey: Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_light.exr using Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c7aa32023007f4990eba9c59ee8737') in 0.018352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_light.exr using Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e054d7be74a321f3d08895a99f2a046') in 0.018229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_dir.png
+  artifactKey: Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_dir.png using Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cabf1625c4157dba0fdb95e11706ac1') in 0.018034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_dir.png
+  artifactKey: Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_dir.png using Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d6ec49360b1bea3f5874d28dc66760') in 0.018363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_light.exr using Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894c46ad85d4de9cb5c407e31f726331') in 0.017558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_light.exr
+  artifactKey: Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_light.exr using Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef46c216d060c52b4ce9a23758fada29') in 0.018828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-20_comp_light.exr
+  artifactKey: Guid(a172b0732c96749449501c3da80d2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-20_comp_light.exr using Guid(a172b0732c96749449501c3da80d2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e76087534ace75f61c790b052a5d9a') in 0.017165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_dir.png
+  artifactKey: Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_dir.png using Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211cce59fc02d2e0e825782a4508767d') in 0.019251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_dir.png using Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea1ab22ca47ba9d7d54f333b6152b5c') in 0.020234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_dir.png
+  artifactKey: Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_dir.png using Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5447509d9feab556db734803e9d38644') in 0.070289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-22_comp_light.exr
+  artifactKey: Guid(2a358540ecd8dad4ca362d7774fa82a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-22_comp_light.exr using Guid(2a358540ecd8dad4ca362d7774fa82a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf96470645b86b82b4c7687faf83d0e') in 0.033376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 824.994845 seconds.
+  path: Assets/Scenes/MainScene/LightingData.asset
+  artifactKey: Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/LightingData.asset using Guid(ea452022db783e84f8dccffb82d36e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d43e5be9385c867fac5312eda359f5') in 0.017708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_dir.png
+  artifactKey: Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_dir.png using Guid(8fdacccca6085ca428ec4e0dd316763e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3835367ef482675f0d14f4ae61eece8') in 0.052211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-19_comp_dir.png
+  artifactKey: Guid(ac460c0c76f9b83478dd86ef99186a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-19_comp_dir.png using Guid(ac460c0c76f9b83478dd86ef99186a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2fa357282e15b98dbc57ce28e4f512') in 0.025486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-23_comp_dir.png
+  artifactKey: Guid(03619cc965983554bad284e7e07a0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-23_comp_dir.png using Guid(03619cc965983554bad284e7e07a0b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a242f3f2b95ab3b09af0b8b0d85c31') in 0.016881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_dir.png
+  artifactKey: Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_dir.png using Guid(9805cc25f4493b74e9cac4b3bd37f629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9760e5464e761880f2391d9430d83d6') in 0.018422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-18_comp_dir.png
+  artifactKey: Guid(412616e5006e8d1428bd34e9da9762cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-18_comp_dir.png using Guid(412616e5006e8d1428bd34e9da9762cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa5e53ab87ab2771645ba3571cf38ce') in 0.016866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-20_comp_dir.png
+  artifactKey: Guid(74a16cf5919496041b4dfbfbf498118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-20_comp_dir.png using Guid(74a16cf5919496041b4dfbfbf498118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c988cd36483df5d7bdb25763972f2a03') in 0.018090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-22_comp_dir.png
+  artifactKey: Guid(2d5306fe55007634bb1708b1b5cf369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-22_comp_dir.png using Guid(2d5306fe55007634bb1708b1b5cf369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8726054823b53d756fa4df61dfdaa5') in 0.016647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_light.exr
+  artifactKey: Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_light.exr using Guid(c8f2359ab92a72e46a6852919fadde4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29f4f887dc1e16ab99ed3f81db4e55d') in 0.016509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-18_comp_light.exr
+  artifactKey: Guid(020a72a49e0f2ab469f4eca2488a3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-18_comp_light.exr using Guid(020a72a49e0f2ab469f4eca2488a3930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517efb5e330506c93e02f4ee9e11e05f') in 0.016056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_light.exr
+  artifactKey: Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_light.exr using Guid(8ee9c2385b9a98b42b22128026bc7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c441ae387c32267995b8506673bf5f0a') in 0.017085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_dir.png using Guid(e198613f58becac49b4ca3893df34bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431272b39d9225f2b9046f4a8096b24b') in 0.018492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_light.exr
+  artifactKey: Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_light.exr using Guid(eb8038bb4453dbf4bb7d77d9f5ef6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d63a4580f0f0e40d571d2622caea9f4') in 0.018775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_dir.png
+  artifactKey: Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_dir.png using Guid(edd83f4fab512a641a35d65222644431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afce555b3b499c4cfd82ba7a6342c6ad') in 0.019097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_dir.png
+  artifactKey: Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_dir.png using Guid(36df4e6698a9fa54c9e9b71c562d53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bc208923e38871f898beb92318279d') in 0.019532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-17_comp_dir.png
+  artifactKey: Guid(5bc743e3061c3e247afcccc09846c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-17_comp_dir.png using Guid(5bc743e3061c3e247afcccc09846c488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fd5cbb1bd08638795c4a10973c2473') in 0.015953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_light.exr
+  artifactKey: Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_light.exr using Guid(7da88dd70476d594d800c151b7ff9c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae9f030766aa6437dc913b4f4effaf9') in 0.017471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_dir.png
+  artifactKey: Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_dir.png using Guid(0dbd8a944e7a2c04c9c970211c271707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4e10ea0f189265ad088b844aca4ac5') in 0.019516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-8_comp_light.exr
+  artifactKey: Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-8_comp_light.exr using Guid(a3bffeb4b00e3d446b6188ed80767ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d14853a27563772226dcf1a9e969ed') in 0.016584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-14_comp_light.exr
+  artifactKey: Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-14_comp_light.exr using Guid(519feab8b0892de4b9a936b2815c61bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0754c61e1aad180b12581441eb61eba') in 0.019565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_dir.png using Guid(11eaef84f828e454e9c479cbe5de5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fa67eb91de888d058633c3dac60add') in 0.018461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-21_comp_light.exr
+  artifactKey: Guid(98ff18219039c9e4387f95dbb3124034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-21_comp_light.exr using Guid(98ff18219039c9e4387f95dbb3124034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d0ee1920bf686a8658256a7db0b345') in 0.014684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_light.exr
+  artifactKey: Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_light.exr using Guid(8a9d10461266d3c40a6d288984ae90ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13c3ed2f2d636666db2fa22db66c698') in 0.020252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_light.exr
+  artifactKey: Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_light.exr using Guid(9236bb403faa07f4f80b718c78cbc256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8aa6f3d3edb5ef945edcce7c7904fa') in 0.018460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-21_comp_dir.png
+  artifactKey: Guid(d5fa6d19b7def37498b71779cbd2cb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-21_comp_dir.png using Guid(d5fa6d19b7def37498b71779cbd2cb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb648f33655508e3e07b3079eef3a0cf') in 0.016124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-3_comp_light.exr using Guid(500dba8091a06534dabd1b241a025d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6f63f12f617c4047b1b6d39882de1b') in 0.016702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_dir.png
+  artifactKey: Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_dir.png using Guid(1dc49d80e90d96043abb518e34649ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4030f456424d5eb7e22ab1bbd2522c') in 0.017005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_light.exr
+  artifactKey: Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_light.exr using Guid(e4a04e3b67b6fd34384ddd9c836ce1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bf9d6f4c570eb15eb74b14931cacf7') in 0.014824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-6_comp_dir.png
+  artifactKey: Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-6_comp_dir.png using Guid(d0e8f2da3c0bc21419dfdaacfe71231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4b1fbfd9e6c4019528a75683f7b90d') in 0.016856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-23_comp_light.exr
+  artifactKey: Guid(c6322074c60504349a21cfbf4f60ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-23_comp_light.exr using Guid(c6322074c60504349a21cfbf4f60ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1c3dde075f5bae8995a0d4514ece3b') in 0.014431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-17_comp_light.exr
+  artifactKey: Guid(3a04c83ced4ab364e9cf00f2429ea20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-17_comp_light.exr using Guid(3a04c83ced4ab364e9cf00f2429ea20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11ebe0b3553ff00f9224b9e11117205') in 0.014362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_light.exr using Guid(19a852f4a265bae4787d1768aa352f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4a2083162da5d62b6e08baeb257907') in 0.016265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_dir.png
+  artifactKey: Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_dir.png using Guid(6c6b44a290f6b8e41abfadc40db5527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aae2c80447f45929787942358cdf3ab') in 0.017712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-7_comp_dir.png
+  artifactKey: Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-7_comp_dir.png using Guid(2b19bf7b5f42440449ef9a1ed4cc3c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981502eb142ae2557e8f2c95f8e88b97') in 0.015747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-4_comp_light.exr
+  artifactKey: Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-4_comp_light.exr using Guid(b929206299ac3be4eb97fbe859943335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89cb3af28d7af34ba4f1b551b7e3b50') in 0.013424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-5_comp_dir.png
+  artifactKey: Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-5_comp_dir.png using Guid(b135ae3d9100187419d08fe2fb222c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b189495a0a377589ea8cdd9ef6a83a34') in 0.018079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-11_comp_light.exr
+  artifactKey: Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-11_comp_light.exr using Guid(147831f4e4558c942a162453d36229a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e062330af49a2b8cdfd25abcfdf4b67e') in 0.015023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-19_comp_light.exr
+  artifactKey: Guid(e90faa2a6822e2847b0f74e4b5664f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-19_comp_light.exr using Guid(e90faa2a6822e2847b0f74e4b5664f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f85ae4252e52d7d8c558bb4152d195') in 0.013833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-10_comp_light.exr
+  artifactKey: Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-10_comp_light.exr using Guid(6ddb3f5fb1dfd3a4494e71ea481666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53ea3f5100c793f08e7128e92f94851') in 0.019307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-1_comp_light.exr using Guid(a0184197aeaac2f498eab058723116ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e5299ae4453139462413e5d40f4b8d') in 0.015559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-9_comp_dir.png
+  artifactKey: Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-9_comp_dir.png using Guid(0e1d49aba74bdcb4eaa86f4149e0d87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cbabc178ed8c3104287a39fe4928e7') in 0.015338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-12_comp_dir.png
+  artifactKey: Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-12_comp_dir.png using Guid(8f1f4a28a3fa13a429fc8d9f0a4873f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189fa939a8f40bdac78ccccc9511674b') in 0.018889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-0_comp_light.exr using Guid(ec2a5b131b356cc4684bbf0d6a8506f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d745cc39b823e684703970210525c4') in 0.011738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-15_comp_light.exr
+  artifactKey: Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-15_comp_light.exr using Guid(5488db5ca10356c488bd2b5ad3cfa4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c195a7c370564a9a0e7424b63fa783f5') in 0.015952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-20_comp_light.exr
+  artifactKey: Guid(a172b0732c96749449501c3da80d2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-20_comp_light.exr using Guid(a172b0732c96749449501c3da80d2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f999df96d569230a2dae9d15ebace06b') in 0.014190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-16_comp_dir.png
+  artifactKey: Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-16_comp_dir.png using Guid(f9c031e48b1b4f7438a3b35ca48a0d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957ea111f0a2f6327cc212f0a5f2e873') in 0.017265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-2_comp_dir.png using Guid(aeeebdbd5c861934ca35011661c42dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf50f083ad8b3690abbb3e7cba8c5de') in 0.022011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-13_comp_dir.png
+  artifactKey: Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-13_comp_dir.png using Guid(09e4276a9e0679e42b4dedeccc6ea60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86263c4c8a8c0c6124c3e27d5ec36cc') in 0.016262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Scenes/MainScene/Lightmap-22_comp_light.exr
+  artifactKey: Guid(2a358540ecd8dad4ca362d7774fa82a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/Lightmap-22_comp_light.exr using Guid(2a358540ecd8dad4ca362d7774fa82a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94dc6e79a9bf50e6f8b347c9ac0909cf') in 0.018928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.204459 seconds.
+  path: Assets/FBX/FloorTile.fbx
+  artifactKey: Guid(30af6982a3999fc42b4fc3d0145ea52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/FloorTile.fbx using Guid(30af6982a3999fc42b4fc3d0145ea52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7533d6e7129dc4534f0cb09bf4d80f') in 1.031267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.535607 seconds.
+  path: Assets/FBX/FloorTile.fbx
+  artifactKey: Guid(30af6982a3999fc42b4fc3d0145ea52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/FloorTile.fbx using Guid(30af6982a3999fc42b4fc3d0145ea52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedf41246130c15f422458c6ff344e10') in 0.063733 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,120 +1,200 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 32679 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 19829 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+C:\Program Files\2020.3.30f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Uni/Interactive_PA/ProjectInteractive3D/Projektarbeit
+C:/Users/tryto/Desktop/Git/ProjectInteractive3D/Projektarbeit
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65438
-Successfully changed project path to: D:/Uni/Interactive_PA/ProjectInteractive3D/Projektarbeit
-D:/Uni/Interactive_PA/ProjectInteractive3D/Projektarbeit
+51984
+Successfully changed project path to: C:/Users/tryto/Desktop/Git/ProjectInteractive3D/Projektarbeit
+C:/Users/tryto/Desktop/Git/ProjectInteractive3D/Projektarbeit
 Using Asset Import Pipeline V2.
 Assets/House.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 106.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Uni/Interactive_PA/ProjectInteractive3D/Projektarbeit/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tryto/Desktop/Git/ProjectInteractive3D/Projektarbeit/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
     Vendor:   
-    VRAM:     8070 MB
-    Driver:   30.0.15.1259
+    VRAM:     3962 MB
+    Driver:   30.0.15.1179
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Mono path[0] = 'C:/Program Files/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003863 seconds.
+Register platform support module: C:/Program Files/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001936 seconds.
 Native extension for WindowsStandalone target not found
 Assets/House.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 152.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.930 seconds
+- Completed reload, in  0.711 seconds
 Domain Reload Profiling:
-	ReloadAssembly (931ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (711ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (755ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (562ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (319ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (231ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (152ms)
-				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003231 seconds.
+Registered in 0.005424 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001530A157020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A37A030 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305ABA740 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530609B120 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153060935F0 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530609B120 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A2B7220 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305E74830 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A55A020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A588230 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A442820 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153056D7660 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305AD5C30 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153096D5490 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A588230 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A98FE90 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015306120ED0 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015306120ED0 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305749270 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A157020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305749270 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309719860 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309C15240 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A98FE90 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309C2C020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A1D0830 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A5C0230 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A0C1010 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015306112C20 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A98FE90 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309C63630 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305D01040 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305D739B0 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015306186240 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305FF4040 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309719860 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A99FEA0 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305D017E0 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A5D8500 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530601C650 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Assets/House.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 113.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.830 seconds
+- Completed reload, in  1.580 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1831ms)
-		BeginReloadAssembly (179ms)
+	ReloadAssembly (1581ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1576ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1374ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (445ms)
+			SetupTypeCache (380ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (785ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (693ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (114ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (381ms)
-				ProcessInitializeOnLoadMethodAttributes (149ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Assets/House.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -124,15 +204,15 @@ Worker process is ready to serve import requests
 Assets/House.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4840 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 238.9 MB.
-System memory in use after: 239.1 MB.
+System memory in use before: 238.8 MB.
+System memory in use after: 239.0 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 5314.
-Total: 4.909900 ms (FindLiveObjects: 0.378000 ms CreateObjectMapping: 0.142100 ms MarkObjects: 4.256100 ms  DeleteObjects: 0.132400 ms)
+Total: 5.094600 ms (FindLiveObjects: 0.539300 ms CreateObjectMapping: 0.190500 ms MarkObjects: 3.957000 ms  DeleteObjects: 0.405800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -141,182 +221,209 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/Living Room/Schrank/Schrank.mat
-  artifactKey: Guid(932f46df2a0adf742be5ee79f59bfa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Schrank/Schrank.mat using Guid(932f46df2a0adf742be5ee79f59bfa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbee6e14e9c23ab12b54ac145605fcaa') in 0.780127 seconds 
+  path: Assets/House.fbx
+  artifactKey: Guid(7122aa9947378894f9dc6ba5c69e58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House.fbx using Guid(7122aa9947378894f9dc6ba5c69e58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba77c383a27a0042eb530d2352d2a00') in 13.105872 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.711249 seconds.
-  path: Assets/FBX/Living Room Assets/Cushion.fbx
-  artifactKey: Guid(e26a9393ceff79242b75528061e964f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Living Room Assets/Cushion.fbx using Guid(e26a9393ceff79242b75528061e964f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc6f85ade530434cecf7e3da7638464') in 0.077833 seconds 
+  Time since last request: 0.000414 seconds.
+  path: Assets/House.prefab
+  artifactKey: Guid(d6e58826e49e1a549a3fb09d097e70c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House.prefab using Guid(d6e58826e49e1a549a3fb09d097e70c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910802d92991958f7d23060a801b7660') in 0.136680 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.690460 seconds.
-  path: Assets/Materials/Living Room/Cushion
-  artifactKey: Guid(f06166f018860394390925f80390a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Cushion using Guid(f06166f018860394390925f80390a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4f3260cea560903ce922fe47544221') in 0.001916 seconds 
+  Time since last request: 282.988895 seconds.
+  path: Assets/Materials/Ceiling.mat
+  artifactKey: Guid(fafbd7ebdaf03aa42a87876f49d93cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ceiling.mat using Guid(fafbd7ebdaf03aa42a87876f49d93cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aea9182a1bc207f8b3beb0cf547e387') in 0.075118 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.112013 seconds.
-  path: Assets/Materials/Living Room/Cushion/Cushion_Albedo.png
-  artifactKey: Guid(da82473418a8ad4418d7e08492ec041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Cushion/Cushion_Albedo.png using Guid(da82473418a8ad4418d7e08492ec041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5305395f4d9bf90c0ca8d0ba94047c') in 0.033089 seconds 
+  Time since last request: 0.000331 seconds.
+  path: Assets/Materials/Test 1.mat
+  artifactKey: Guid(ea37a87980410984c95b9b8a450f1987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Test 1.mat using Guid(ea37a87980410984c95b9b8a450f1987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662cfc9c5e5e7a80c13d6e1d62d964ae') in 0.044319 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Materials/Living Room/Cushion/Cushion_Displacement.png
-  artifactKey: Guid(d70dd27c76d72ef4b8f25d05a39cdc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Cushion/Cushion_Displacement.png using Guid(d70dd27c76d72ef4b8f25d05a39cdc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0282c1b9befd09d40faaa00ded990005') in 0.011897 seconds 
+  Time since last request: 0.000342 seconds.
+  path: Assets/Materials/Mirror.mat
+  artifactKey: Guid(09b1d3e75d5d8854ba683a6f31202ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mirror.mat using Guid(09b1d3e75d5d8854ba683a6f31202ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe27e5de690969c8932c890ec018337') in 0.048768 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Materials/Living Room/Cushion/Cushion_Maskmap.png
-  artifactKey: Guid(e3b128ddccede4c46a02cbbb677dac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Cushion/Cushion_Maskmap.png using Guid(e3b128ddccede4c46a02cbbb677dac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b32ef07ebe8a350b3b1ceed2ae2256d') in 0.016453 seconds 
+  Time since last request: 0.000346 seconds.
+  path: Assets/Materials/Wall.mat
+  artifactKey: Guid(d1d9a10611e6f1c4eab425428efd5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wall.mat using Guid(d1d9a10611e6f1c4eab425428efd5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b333008640730cff1bca4e3705b8dbf6') in 0.085698 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Materials/Living Room/Cushion/Cushion_Normal.png
-  artifactKey: Guid(9b6253ca07292f745842448e8da6abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Cushion/Cushion_Normal.png using Guid(9b6253ca07292f745842448e8da6abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfb2e51425725deba111f0c403e40b2') in 0.023682 seconds 
+  Time since last request: 0.000330 seconds.
+  path: Assets/Materials/Test.physicMaterial
+  artifactKey: Guid(6ee11faf62d5cb844bfe897117a3e726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Test.physicMaterial using Guid(6ee11faf62d5cb844bfe897117a3e726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbc5d1536e37bbe9b2bdc535de7789b') in 0.012432 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.529950 seconds.
-  path: Assets/Materials/Living Room/Cushion/Cushion.mat
-  artifactKey: Guid(e392db5414375aa49a8b0a6f109e77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Cushion/Cushion.mat using Guid(e392db5414375aa49a8b0a6f109e77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3a1ec42917f87f1d1735bfbef2be4f') in 0.026996 seconds 
+  Time since last request: 0.000303 seconds.
+  path: Assets/Materials/Test.mat
+  artifactKey: Guid(b2d70bd2295492b478b475cab7f08eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Test.mat using Guid(b2d70bd2295492b478b475cab7f08eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc57b5160c837cc73658a19d008fb11b') in 0.051879 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1929.394526 seconds.
-  path: Assets/FBX/Living Room Assets/Sitzflaeche.fbx
-  artifactKey: Guid(ef3c00169c2e6474fa1ad7b543dd22a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Living Room Assets/Sitzflaeche.fbx using Guid(ef3c00169c2e6474fa1ad7b543dd22a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd099d6283c3a7e82677628ecd49e45c') in 0.040129 seconds 
+  Time since last request: 0.000280 seconds.
+  path: Assets/Materials/Woodenfloor.mat
+  artifactKey: Guid(43978ffb16111c74784bfdddc2bf273b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Woodenfloor.mat using Guid(43978ffb16111c74784bfdddc2bf273b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca623e42dbde1313b9d182d0829065c6') in 0.091293 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 87.678005 seconds.
-  path: Assets/FBX/Living Room Assets/Sitzflaeche.fbx
-  artifactKey: Guid(ef3c00169c2e6474fa1ad7b543dd22a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Living Room Assets/Sitzflaeche.fbx using Guid(ef3c00169c2e6474fa1ad7b543dd22a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ed84ef8d23fb6fa3b7688655a00a61') in 0.053766 seconds 
+  Time since last request: 8.120777 seconds.
+  path: Assets/Materials/Glass.mat
+  artifactKey: Guid(01b136ae76b5b6f488a8ee3a2505c8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Glass.mat using Guid(01b136ae76b5b6f488a8ee3a2505c8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1401daf5ed2755460242a97ca7c6c1') in 0.038277 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 81.740167 seconds.
-  path: Assets/FBX/Living Room Assets/Sitzflaeche.fbx
-  artifactKey: Guid(ef3c00169c2e6474fa1ad7b543dd22a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Living Room Assets/Sitzflaeche.fbx using Guid(ef3c00169c2e6474fa1ad7b543dd22a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f27b2250994a104b6ce632fcf28e8a3') in 0.039044 seconds 
+  Time since last request: 483.989711 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(5d1c46d9b343a0d43a8fd8e67740263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(5d1c46d9b343a0d43a8fd8e67740263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fc1b1fe2461dc069544537a26b41cc') in 0.007971 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.089305 seconds.
-  path: Assets/Materials/Living Room/Sofa
-  artifactKey: Guid(c2b0999bc5898494c8dc5e0301148eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Sofa using Guid(c2b0999bc5898494c8dc5e0301148eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dca8e806b6293869a42493b90cf3188') in 0.005539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.528799 seconds.
-  path: Assets/Materials/Living Room/Sofa/Sitzflaeche
-  artifactKey: Guid(b65f314e1c2914847bc9ed29861ad02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Sofa/Sitzflaeche using Guid(b65f314e1c2914847bc9ed29861ad02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dff2b407888faf063237767f2699623') in 0.002332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.858792 seconds.
-  path: Assets/Materials/Living Room/Sofa/Sitzflaeche/Sitzflaeche_Albedo.png
-  artifactKey: Guid(616faac8b3305184a8e3c3f4834c5b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Sofa/Sitzflaeche/Sitzflaeche_Albedo.png using Guid(616faac8b3305184a8e3c3f4834c5b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0034f24d78dce78693b170437b9e4c') in 0.022514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Materials/Living Room/Sofa/Sitzflaeche/Sitzflaeche_Displacement.png
-  artifactKey: Guid(fcd7338c43a0d3a4682e91767e596992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Sofa/Sitzflaeche/Sitzflaeche_Displacement.png using Guid(fcd7338c43a0d3a4682e91767e596992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f96b064f3df2e4cc905f41e8938cff') in 0.152385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Materials/Living Room/Sofa/Sitzflaeche/Sitzflaeche_Maskmap.png
-  artifactKey: Guid(dca30334637f59f4f835fd4143df5ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Sofa/Sitzflaeche/Sitzflaeche_Maskmap.png using Guid(dca30334637f59f4f835fd4143df5ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2fa6ddd104004930d3f1d0c7350363') in 0.017303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Materials/Living Room/Sofa/Sitzflaeche/Sitzflaeche_Normal.png
-  artifactKey: Guid(b6f4d3d3b8a197a4a9a5cfdc3c20d795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Sofa/Sitzflaeche/Sitzflaeche_Normal.png using Guid(b6f4d3d3b8a197a4a9a5cfdc3c20d795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f8b1371b1eafda5bdb99a10acb75d7') in 0.016151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.778387 seconds.
-  path: Assets/Materials/Living Room/Sofa/Sitzflaeche/Sitzflaeche.mat
-  artifactKey: Guid(ca416040b0d176041949d06364fc132e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Sofa/Sitzflaeche/Sitzflaeche.mat using Guid(ca416040b0d176041949d06364fc132e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c8d93a8962495fcc7075586af18997') in 0.028168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.294443 seconds.
-  path: Assets/Materials/Living Room/Sofa/Cushion/Cushion.mat
-  artifactKey: Guid(e392db5414375aa49a8b0a6f109e77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Living Room/Sofa/Cushion/Cushion.mat using Guid(e392db5414375aa49a8b0a6f109e77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3193cee9eac1632bebd1aeaeed7d7222') in 0.034950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.436166 seconds.
-  path: Assets/Prefabs/House.prefab
-  artifactKey: Guid(fb154ac87a1510f4088ef79bffc5250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/House.prefab using Guid(fb154ac87a1510f4088ef79bffc5250a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3d4f38c16664bd07f37e9b6bc814a8') in 0.153353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.012890 seconds.
-  path: Assets/FBX/Living Room Assets/Prefabs
-  artifactKey: Guid(0d603be2adfe41d43bf6b04bab8eb81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FBX/Living Room Assets/Prefabs using Guid(0d603be2adfe41d43bf6b04bab8eb81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb85f63c93537cd4e20b8677092c94e6') in 0.006684 seconds 
+  Time since last request: 12.271149 seconds.
+  path: Assets/Materials/Glass.mat
+  artifactKey: Guid(01b136ae76b5b6f488a8ee3a2505c8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Glass.mat using Guid(01b136ae76b5b6f488a8ee3a2505c8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5407bc3d07e7c06673a18a2ef36d1848') in 0.051388 seconds 
 ========================================================================
 Received Prepare
 Assets/House.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 Registering precompiled user dll's ...
-Registered in 0.004670 seconds.
+Registered in 0.006461 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001530A157020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153661C4F30 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A36A020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305CD1970 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015366324580 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305F4CB90 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A36A020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A36A020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530B90D020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309775670 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305EB18A0 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309A45010 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015365E33790 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015312E5AFE0 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153169CA3F0 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530E170010 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305FF4040 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153174E5010 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A2B9A20 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530A157020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530DBEA020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015365FD1310 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530DBEA020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530FD7C040 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015316B76710 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000153662A3230 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015366489D30 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309A45010 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530E1BA030 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530FD7C040 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530599D020 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305F5C700 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015309F07C30 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015305EB18A0 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530DF18640 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015365FD2910 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530DE4B010 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001531296AB60 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530D81A0C0 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001530DF40C50 doesn't match image C:\Users\tryto\Desktop\Git\ProjectInteractive3D\Projektarbeit\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.012 seconds
+- Completed reload, in  1.837 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2013ms)
-		BeginReloadAssembly (292ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (40ms)
+	ReloadAssembly (1838ms)
+		BeginReloadAssembly (377ms)
+			ExecutionOrderSort (12ms)
+			DisableScriptedObjects (158ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (1629ms)
-			LoadAssemblies (140ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1390ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (520ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (565ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (530ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (402ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4555 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 240.6 MB.
-System memory in use after: 241.0 MB.
+System memory in use before: 245.9 MB.
+System memory in use after: 246.3 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5476.
-Total: 5.280200 ms (FindLiveObjects: 0.429700 ms CreateObjectMapping: 0.149000 ms MarkObjects: 4.598300 ms  DeleteObjects: 0.101500 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5475.
+Total: 5.922300 ms (FindLiveObjects: 0.467400 ms CreateObjectMapping: 0.181100 ms MarkObjects: 5.140700 ms  DeleteObjects: 0.131700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -325,6 +432,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

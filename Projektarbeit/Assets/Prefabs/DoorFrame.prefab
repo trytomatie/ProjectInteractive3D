@@ -299,7 +299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8068073526183931155, guid: 3b8f02346628de34ea96ebd73082c76b, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 3b8f02346628de34ea96ebd73082c76b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -308,18 +308,22 @@ PrefabInstance:
     - target: {fileID: -305091885687274788, guid: 3b8f02346628de34ea96ebd73082c76b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ea37a87980410984c95b9b8a450f1987, type: 2}
+      objectReference: {fileID: 2100000, guid: 55d49804583b3804998dfde69d4a8621, type: 2}
     - target: {fileID: 919132149155446097, guid: 3b8f02346628de34ea96ebd73082c76b, type: 3}
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3b8f02346628de34ea96ebd73082c76b, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2766212503428324877, guid: 3b8f02346628de34ea96ebd73082c76b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8032750206264916975, guid: 3b8f02346628de34ea96ebd73082c76b, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b8f02346628de34ea96ebd73082c76b, type: 3}

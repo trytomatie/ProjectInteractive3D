@@ -1,0 +1,317 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 19829 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/tryto/Desktop/Git/ProjectInteractive3D/Projektarbeit
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60473
+Successfully changed project path to: C:/Users/tryto/Desktop/Git/ProjectInteractive3D/Projektarbeit
+C:/Users/tryto/Desktop/Git/ProjectInteractive3D/Projektarbeit
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 124.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tryto/Desktop/Git/ProjectInteractive3D/Projektarbeit/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001903 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 217.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (909ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (218ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008737 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 129.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.916 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1918ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1645ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (467ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (799ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (169ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4840 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.3 MB.
+System memory in use after: 240.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 5315.
+Total: 5.710200 ms (FindLiveObjects: 0.460500 ms CreateObjectMapping: 0.251700 ms MarkObjects: 4.841300 ms  DeleteObjects: 0.155000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/FBX/KitchenAssets/Kitchen.fbx
+  artifactKey: Guid(42b265d4198848844981b8a1b96b8c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/KitchenAssets/Kitchen.fbx using Guid(42b265d4198848844981b8a1b96b8c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8452dc33654db64d39ae90d5c83237f') in 1.054751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.398833 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Albedo.png
+  artifactKey: Guid(5a0c01456286c484592c4b9df205cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Albedo.png using Guid(5a0c01456286c484592c4b9df205cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd307ee244f2b91812fc4f63da74d4d') in 0.058910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Normal.png
+  artifactKey: Guid(cda94d52742bc0244a94291a316d5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Normal.png using Guid(cda94d52742bc0244a94291a316d5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2ef0252fb2ddfb70f178173a266bea') in 0.022764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Displacement.png
+  artifactKey: Guid(0667df854697de943899d9f85ad3f21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Displacement.png using Guid(0667df854697de943899d9f85ad3f21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06aeccc8e1addef0648c0a05ce2e3b2') in 0.020794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Mask Map.png
+  artifactKey: Guid(9fb41071b1ac8ef419efa29b4b845704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Mask Map.png using Guid(9fb41071b1ac8ef419efa29b4b845704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56769cf1f897040630fcb56e1d4b5c0d') in 0.029831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.456611 seconds.
+  path: Assets/Textures/KitchenDoors
+  artifactKey: Guid(0c3cbccfb04f2d247a0f29d746636447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors using Guid(0c3cbccfb04f2d247a0f29d746636447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d55ce2ddfa4820261b5cf3b7ec47490') in 0.008953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.614173 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors.mat
+  artifactKey: Guid(9411616a1f1465f4e84e4c3ab6dd60a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors.mat using Guid(9411616a1f1465f4e84e4c3ab6dd60a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bad3643be28bae30a47ba3f5641078d') in 0.116450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 399.799671 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Albedo.png
+  artifactKey: Guid(5a0c01456286c484592c4b9df205cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Albedo.png using Guid(5a0c01456286c484592c4b9df205cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4286028acb06a992462754803f6775c2') in 0.045888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Normal.png
+  artifactKey: Guid(cda94d52742bc0244a94291a316d5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Normal.png using Guid(cda94d52742bc0244a94291a316d5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df8cf34e4949dafb06a8a45ae7ac72f') in 0.020251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Displacement.png
+  artifactKey: Guid(0667df854697de943899d9f85ad3f21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Displacement.png using Guid(0667df854697de943899d9f85ad3f21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb648d47d354a89df29326708ff07c5') in 0.023475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Mask Map.png
+  artifactKey: Guid(9fb41071b1ac8ef419efa29b4b845704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Mask Map.png using Guid(9fb41071b1ac8ef419efa29b4b845704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587b9713ec0fa3ba6c3391b5c1a91552') in 0.020909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.288084 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Albedo.png
+  artifactKey: Guid(5a0c01456286c484592c4b9df205cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Albedo.png using Guid(5a0c01456286c484592c4b9df205cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5843ffef32111ab77b23548a27830fa3') in 0.037675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Normal.png
+  artifactKey: Guid(cda94d52742bc0244a94291a316d5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Normal.png using Guid(cda94d52742bc0244a94291a316d5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5f22e690b7044a3c739a632232c2b2') in 0.016927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Mask Map.png
+  artifactKey: Guid(9fb41071b1ac8ef419efa29b4b845704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Mask Map.png using Guid(9fb41071b1ac8ef419efa29b4b845704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2335250af324193b13e650b98e2d4c9') in 0.020340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.096975 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Albedo.png
+  artifactKey: Guid(5a0c01456286c484592c4b9df205cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Albedo.png using Guid(5a0c01456286c484592c4b9df205cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdba4e78efd8a8514d7a9c9ab2f83d61') in 0.028880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Normal.png
+  artifactKey: Guid(cda94d52742bc0244a94291a316d5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Normal.png using Guid(cda94d52742bc0244a94291a316d5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5848e5aceb8cc7c8b3e1fe0c6b31ae') in 0.019126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Mask Map.png
+  artifactKey: Guid(9fb41071b1ac8ef419efa29b4b845704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Mask Map.png using Guid(9fb41071b1ac8ef419efa29b4b845704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a497196711941cc516ddeba497fbef') in 0.018229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.396501 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Mask Map.png
+  artifactKey: Guid(9fb41071b1ac8ef419efa29b4b845704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Mask Map.png using Guid(9fb41071b1ac8ef419efa29b4b845704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ef2a092308a1e99c088d3f3bb45a7f') in 0.016214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.750369 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors_Normal.png
+  artifactKey: Guid(cda94d52742bc0244a94291a316d5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors_Normal.png using Guid(cda94d52742bc0244a94291a316d5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c88bd73487fa628d9926f54abf8d75') in 0.027028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.865569 seconds.
+  path: Assets/Textures/KitchenIsland/KitchenIsland_Albedo.png
+  artifactKey: Guid(5ccea09278855f444b017532e882d610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenIsland/KitchenIsland_Albedo.png using Guid(5ccea09278855f444b017532e882d610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff32a6f905c7a6ecbe41cc0b28f687d') in 0.021463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Textures/KitchenIsland/KitchenIsland_Normal.png
+  artifactKey: Guid(94fc9fc3f690f9f44aecad7eef461616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenIsland/KitchenIsland_Normal.png using Guid(94fc9fc3f690f9f44aecad7eef461616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd298513647773972ebbdddfbc23b566') in 0.020272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Textures/KitchenIsland/KitchenIsland_Displacement.png
+  artifactKey: Guid(7bb2b62638f46b1458a4605cc1de9319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenIsland/KitchenIsland_Displacement.png using Guid(7bb2b62638f46b1458a4605cc1de9319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb172d7c49255929fbecbd1fe260c27') in 0.020756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Textures/KitchenIsland/KitchenIsland_Mask Map.png
+  artifactKey: Guid(c6f2b913e52e7fb4eb3324889812c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenIsland/KitchenIsland_Mask Map.png using Guid(c6f2b913e52e7fb4eb3324889812c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef57d791492bd40ff9d0054dfc5f335') in 0.023092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.672834 seconds.
+  path: Assets/Textures/KitchenIsland
+  artifactKey: Guid(d2d315883ad726848b9b56cc490e83ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenIsland using Guid(d2d315883ad726848b9b56cc490e83ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8287f0e7b74f0d2f3578b9da666e3a3a') in 0.012434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.825530 seconds.
+  path: Assets/Textures/KitchenIsland/KitchenIsland.mat
+  artifactKey: Guid(12e0e2ab9e1039f438359de339f585bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenIsland/KitchenIsland.mat using Guid(12e0e2ab9e1039f438359de339f585bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0166ef7d1baba257711c5d6635eb2f0c') in 0.064117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 209.914262 seconds.
+  path: Assets/Textures/KitchenIsland/KitchenIsland_Albedo.png
+  artifactKey: Guid(5ccea09278855f444b017532e882d610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenIsland/KitchenIsland_Albedo.png using Guid(5ccea09278855f444b017532e882d610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae620fa114a0994eb246f9bfda8df9d') in 0.052124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Textures/KitchenIsland/KitchenIsland_Normal.png
+  artifactKey: Guid(94fc9fc3f690f9f44aecad7eef461616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenIsland/KitchenIsland_Normal.png using Guid(94fc9fc3f690f9f44aecad7eef461616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8335417ebc2f33153aaed8f5e13f91c') in 0.023563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Textures/KitchenIsland/KitchenIsland_Mask Map.png
+  artifactKey: Guid(c6f2b913e52e7fb4eb3324889812c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenIsland/KitchenIsland_Mask Map.png using Guid(c6f2b913e52e7fb4eb3324889812c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2419bde08375e565fe2587caa368f1a1') in 0.025665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.516847 seconds.
+  path: Assets/Textures/KitchenIsland/KitchenIsland_Mask Map.png
+  artifactKey: Guid(c6f2b913e52e7fb4eb3324889812c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenIsland/KitchenIsland_Mask Map.png using Guid(c6f2b913e52e7fb4eb3324889812c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bc807d1626663981cc4e4a1da51f73') in 0.020180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.209316 seconds.
+  path: Assets/Textures/KitchenIsland/KitchenIsland_Normal.png
+  artifactKey: Guid(94fc9fc3f690f9f44aecad7eef461616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenIsland/KitchenIsland_Normal.png using Guid(94fc9fc3f690f9f44aecad7eef461616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81d01bf6488db957903eb157f5911c0') in 0.021295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.099430 seconds.
+  path: Assets/Textures/KitchenDoors/KitchenDoors.mat
+  artifactKey: Guid(9411616a1f1465f4e84e4c3ab6dd60a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KitchenDoors/KitchenDoors.mat using Guid(9411616a1f1465f4e84e4c3ab6dd60a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acba0b8de9b73c5f8f6d3672c6829c5') in 0.154789 seconds 

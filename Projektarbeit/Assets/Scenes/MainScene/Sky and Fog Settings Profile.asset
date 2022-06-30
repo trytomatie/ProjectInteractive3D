@@ -568,7 +568,7 @@ MonoBehaviour:
   m_Name: HDRISky
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
+  m_AdvancedMode: 1
   rotation:
     m_OverrideState: 1
     m_Value: 236
@@ -629,20 +629,20 @@ MonoBehaviour:
     m_Value: 2
     min: 0
   enableBackplate:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   backplateType:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   groundLevel:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: -0.6
   scale:
-    m_OverrideState: 0
-    m_Value: {x: 32, y: 32}
+    m_OverrideState: 1
+    m_Value: {x: 2024, y: 2024}
   projectionDistance:
-    m_OverrideState: 0
-    m_Value: 16
+    m_OverrideState: 1
+    m_Value: 9.6
     min: 0.0000001
   plateRotation:
     m_OverrideState: 0
@@ -659,7 +659,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0}
   blendAmount:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 100
     min: 0
     max: 100
   shadowTint:

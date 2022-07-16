@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 0eb728e4fa92fb64cbc97ca21881a657
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 9801397f829a1ed42984340315cbf362, type: 3}
+  iesMetaData:
+    FileFormatVersion: LM-63-2002
+    IESPhotometricType: Type C
+    IESMaximumIntensity: 1125
+    IESMaximumIntensityUnit: Lumens
+    Manufacturer: COOPER LIGHTING
+    LuminaireCatalogNumber: QCT900MAG-QCT2075-WH
+    LuminaireDescription: MINI QUIET CEILING TRIMLESS RECESSED ADJUSTABLE BEAM INCANDESCENT
+      FIXTURE WITH TRUNCATED CONE, CLEAR GLASS TRIM LENS AND BEAM AT NADIR
+    LampCatalogNumber: Q71MR16C/NSP 15   71WATTS
+    LampDescription: BI PIN MR16 HALOGEN INCANDESCENT LAMP
+    PrefabLightType: 0
+    SpotAngle: 120
+    iesSize: 128
+    ApplyLightAttenuation: 1
+    UseIESMaximumIntensity: 1
+    CookieCompression: 2
+    LightAimAxisRotation: -90

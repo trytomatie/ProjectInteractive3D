@@ -7,6 +7,7 @@ public class DoorInteraction : InteractableObject
 {
     public Animator anim;
 
+
     private void Start()
     {
         gameObject.isStatic = false;

@@ -7,20 +7,68 @@ public abstract class InteractableObject : MonoBehaviour
 {
 
     public string commandText;
+    private bool isReachable;
+    public GameObject reticle;
+    private GameObject reticleInstance;
+    private Animator reticleAnimator;
+    private Transform canvas;
 
+    private void Awake()
+    {
+        canvas = FindObjectOfType<Canvas>().gameObject.transform;
+    }
 
     public abstract void TriggerInteraction(GameObject source);
 
-
-    // Start is called before the first frame update
-    void Start()
+    public void Update()
     {
         
     }
+    public bool IsReachable 
+    { 
+        get => isReachable;
+        set 
+        {
+            if(value != isReachable)
+            {
+                if(value == true)
+                {
+                    SpawnReticle();
+                }
+                else
+                {
+                    DespawnReticle();
+                }
 
-    // Update is called once per frame
-    void Update()
+            }
+            isReachable = value;
+        }
+    }
+
+    private void SpawnReticle()
     {
-        
+        if(reticleInstance == null)
+        {
+            reticleInstance = Instantiate(reticle, transform.position, Quaternion.identity, canvas);
+            reticleInstance.GetComponent<ReticleUI>().target = transform;
+            reticleAnimator = reticleInstance.GetComponent<Animator>();
+        }
+    }
+
+    private void DespawnReticle()
+    {
+        reticleAnimator.SetTrigger("Despawn");
+        Destroy(reticleInstance,0.5f);
+        reticleInstance = null;
+    }
+
+    public void ShowReticleText()
+    {
+        reticleAnimator.SetBool("ShowText", true);
+    }
+
+    public void HideReticleText()
+    {
+        reticleAnimator.SetBool("ShowText", false);
     }
 }

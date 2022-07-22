@@ -89,12 +89,17 @@ public class GazeController : MonoBehaviour
         pickedUpItem = item;
         pickedUpItemRb = pickedUpItem.GetComponent<Rigidbody>();
         pickedUpItemRb.useGravity = false;
+        foreach (InteractableObject interactable in allInteractables)
+        {
+           interactable.IsReachable = false;
+        }
     }
 
     public void DropCurrentItem()
     {
         pickedUpItem.DropItem();
         pickedUpItemRb.useGravity = true;
+        pickedUpItemRb.velocity += (mainCamera.transform.forward) * pickedUpItem.throwStrength;
         pickedUpItemRb = null;
         pickedUpItem = null;
     }

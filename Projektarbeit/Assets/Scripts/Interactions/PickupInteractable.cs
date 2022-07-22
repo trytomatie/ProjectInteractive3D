@@ -6,6 +6,7 @@ using TMPro;
 public class PickupInteractable : InteractableObject
 {
     private bool isPickedUp;
+    public float throwStrength = 0;
 
     private void Start()
     {

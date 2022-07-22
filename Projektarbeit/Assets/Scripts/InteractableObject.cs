@@ -15,7 +15,7 @@ public abstract class InteractableObject : MonoBehaviour
 
     private void Awake()
     {
-        canvas = FindObjectOfType<Canvas>().gameObject.transform;
+        canvas = GameObject.Find("Canvas").transform;
     }
 
     public abstract void TriggerInteraction(GameObject source);
@@ -64,11 +64,12 @@ public abstract class InteractableObject : MonoBehaviour
 
     public void ShowReticleText()
     {
-        reticleAnimator.SetBool("ShowText", true);
+        if(reticleAnimator != null) reticleAnimator.SetBool("ShowText", true);
+
     }
 
     public void HideReticleText()
     {
-        reticleAnimator.SetBool("ShowText", false);
+        if (reticleAnimator != null) reticleAnimator.SetBool("ShowText", false);
     }
 }

@@ -10,7 +10,9 @@ public class GazeController : MonoBehaviour
     public float gazeDistance = 3;
     public GameObject commandPanel;
     private InteractableObject currentGazedObject;
-
+    public PickupInteractable pickedUpItem;
+    public float itemGrabSpeed = 3;
+    private Rigidbody pickedUpItemRb;
     public List<InteractableObject> allInteractables;
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,14 @@ public class GazeController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (pickedUpItem != null)
+        {
+            Vector3 direction = ((mainCamera.transform.position + mainCamera.transform.forward * 1.5f) - pickedUpItem.transform.position) * itemGrabSpeed;
+            pickedUpItemRb.velocity = direction;
+            return;
+        }
+
+
         foreach(InteractableObject interactable in allInteractables)
         {
             if(Vector3.Distance(transform.position,interactable.transform.position) < gazeDistance)
@@ -60,9 +70,32 @@ public class GazeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (pickedUpItem != null)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                DropCurrentItem();
+            }
+            return;
+        }
         if(Input.GetKeyDown(KeyCode.E) && currentGazedObject != null)
         {
             currentGazedObject.TriggerInteraction(gameObject);
         }
+    }
+
+    public void PickupItem(PickupInteractable item)
+    {
+        pickedUpItem = item;
+        pickedUpItemRb = pickedUpItem.GetComponent<Rigidbody>();
+        pickedUpItemRb.useGravity = false;
+    }
+
+    public void DropCurrentItem()
+    {
+        pickedUpItem.DropItem();
+        pickedUpItemRb.useGravity = true;
+        pickedUpItemRb = null;
+        pickedUpItem = null;
     }
 }

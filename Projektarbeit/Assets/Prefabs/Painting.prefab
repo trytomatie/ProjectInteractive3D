@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2584864367537175976}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.017, y: 0, z: -4.695}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -43,8 +43,9 @@ GameObject:
   - component: {fileID: 4933586189300255711}
   - component: {fileID: 8927666033528913517}
   - component: {fileID: 2758913812520277405}
+  - component: {fileID: 1524400424879332544}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: CanvasPainting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -114,6 +115,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1524400424879332544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4195634941597240211}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.56439996, y: 0.95, z: 0.03}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7269448565491515925
 GameObject:
   m_ObjectHideFlags: 0

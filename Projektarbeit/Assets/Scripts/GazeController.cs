@@ -25,15 +25,14 @@ public class GazeController : MonoBehaviour
     {
         if (pickedUpItem != null)
         {
-            Vector3 direction = ((mainCamera.transform.position + mainCamera.transform.forward * 1.5f) - pickedUpItem.transform.position) * itemGrabSpeed;
-            pickedUpItemRb.velocity = direction;
             return;
         }
 
 
         foreach(InteractableObject interactable in allInteractables)
         {
-            if(Vector3.Distance(transform.position,interactable.transform.position) < gazeDistance)
+            if(Vector3.Distance(transform.position,interactable.transform.position) < gazeDistance 
+                && Vector3.Dot(transform.forward,interactable.transform.position - transform.position) > 0)
             {
                 interactable.IsReachable = true;
             }
@@ -72,6 +71,8 @@ public class GazeController : MonoBehaviour
     {
         if (pickedUpItem != null)
         {
+            Vector3 direction = ((mainCamera.transform.position + mainCamera.transform.forward * 1.5f) - pickedUpItem.transform.position) * itemGrabSpeed;
+            pickedUpItemRb.velocity = direction;
             if (Input.GetKeyDown(KeyCode.E))
             {
                 DropCurrentItem();

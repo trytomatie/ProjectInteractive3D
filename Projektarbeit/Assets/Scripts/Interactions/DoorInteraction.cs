@@ -6,15 +6,27 @@ using TMPro;
 public class DoorInteraction : InteractableObject
 {
     public Animator anim;
-
+    public bool animationCollision = false;
+    private Collider coll;
 
     private void Start()
     {
         gameObject.isStatic = false;
+        coll = GetComponent<Collider>();
     }
     public override void TriggerInteraction(GameObject source)
     {
-        anim.SetBool("isFront", Vector3.Dot(transform.right, source.transform.position - transform.position) > 0);
         anim.SetBool("isOpen", !anim.GetBool("isOpen"));
+        
+        if(animationCollision == false)
+        {
+            coll.isTrigger = true;
+            Invoke("SetColliderSolid", 0.5f);
+        }    
+    }
+
+    public void SetColliderSolid ()
+    {
+        coll.isTrigger = false;
     }
 }

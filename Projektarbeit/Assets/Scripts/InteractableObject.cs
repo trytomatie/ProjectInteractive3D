@@ -52,6 +52,7 @@ public abstract class InteractableObject : MonoBehaviour
             reticleInstance = Instantiate(reticle, transform.position, Quaternion.identity, canvas);
             reticleInstance.GetComponent<ReticleUI>().target = transform;
             reticleAnimator = reticleInstance.GetComponent<Animator>();
+            reticleInstance.GetComponentInChildren<TextMeshProUGUI>().text = commandText;
         }
     }
 

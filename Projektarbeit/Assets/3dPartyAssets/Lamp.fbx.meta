@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 4d9f6a332a75e0b4ab0a7e9088eece8c
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 7242199134424420210
+    second: lamp_build_low|down highAction
+  - first:
+      74: -469829516069001557
+    second: lamp_build_low|down highAction.001
+  - first:
+      74: 1709083360545377235
+    second: lamp_build_low|down highAction.002
+  - first:
+      74: -4377177476218030431
+    second: lamp_build_low|down highAction.003
+  - first:
+      74: -5746037037961304004
+    second: lamp_build_low|down highAction.004
+  - first:
+      74: 8283375571905903631
+    second: lamp_build_low|down_lowAction
+  - first:
+      74: -480637332029149048
+    second: lamp_build_low|EmptyAction
+  - first:
+      74: 8094522871283851031
+    second: lamp_build_low|EmptyAction.001
+  - first:
+      74: -1586199099588180549
+    second: lamp_build_low|lamp_build_high.001|lamp_build_high|down highAction.001|lamp_bu
+  - first:
+      74: -4733193914217719222
+    second: lamp_build_low|lamp_build_high.001|lamp_build_high|down highAction|lamp_build_
+  - first:
+      74: 7819924959647556013
+    second: lamp_build_low|lamp_build_high.001|lamp_build_high|down_lowAction|lamp_build_h
+  - first:
+      74: -777294124879748754
+    second: lamp_build_low|lamp_build_high.001|lamp_build_high|up highAction|lamp_build_hi
+  - first:
+      74: -8812768915834297065
+    second: lamp_build_low|lamp_build_high.001|lamp_build_high|up_lowAction|lamp_build_hig
+  - first:
+      74: 2546295679132386629
+    second: lamp_build_low|SceneAction
+  - first:
+      74: -2580662089145892316
+    second: lamp_build_low|up highAction
+  - first:
+      74: 442398016387771447
+    second: lamp_build_low|up_lowAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

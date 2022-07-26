@@ -57,9 +57,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10e6831a5686af74a8151b9bd3929fb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  commandText: '[E] Open Door'
+  commandText: Open Door
   reticle: {fileID: 983995787044393173, guid: 57dff709d0f753440b24fd459e59a25c, type: 3}
   anim: {fileID: 1002090703}
+  animationCollision: 0
 --- !u!1 &2907814743078917590
 GameObject:
   m_ObjectHideFlags: 0

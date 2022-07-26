@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84f753351292dd34c8af76df48f9914b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  commandText: '[E] Change Material'
+  commandText: Change Material
   reticle: {fileID: 983995787044393173, guid: 57dff709d0f753440b24fd459e59a25c, type: 3}
   materials:
   - {fileID: 2100000, guid: 37ef9fd8ad77d7c44acf306a9b1ac224, type: 2}

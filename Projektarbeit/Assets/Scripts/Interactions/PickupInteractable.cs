@@ -8,9 +8,12 @@ public class PickupInteractable : InteractableObject
     private bool isPickedUp;
     public float throwStrength = 0;
 
-    private void Start()
+    protected Rigidbody rb;
+
+    public void Start()
     {
         gameObject.isStatic = false;
+        rb = GetComponent<Rigidbody>();
     }
     public override void TriggerInteraction(GameObject source)
     {

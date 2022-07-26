@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 2758042364169897645}
   - component: {fileID: 1290654575725660424}
   - component: {fileID: 3894949806523334082}
+  - component: {fileID: 3629304420089846029}
+  - component: {fileID: 4640694566527229808}
+  - component: {fileID: 3564976287918267800}
   m_Layer: 0
   m_Name: LP_Pachi
   m_TagString: Untagged
@@ -25,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3246347965239073815}
-  m_LocalRotation: {x: -0, y: -0.9161215, z: -0, w: 0.40090096}
+  m_LocalRotation: {x: 0, y: -0.9161215, z: 0, w: 0.40090084}
   m_LocalPosition: {x: 3.9098592, y: 4.771134, z: -2.7590861}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -66,7 +69,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
+  m_ScaleInLightmap: 3
   m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
@@ -81,3 +84,47 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3629304420089846029
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3246347965239073815}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.27018598, y: 0.30863094, z: 0.26896268}
+  m_Center: {x: -0.0000009536743, y: 0.009081982, z: 0}
+--- !u!54 &4640694566527229808
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3246347965239073815}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3564976287918267800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3246347965239073815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d942d4c41ef850e4d89ffd673dddf831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  commandText: Pick Up :D
+  reticle: {fileID: 983995787044393173, guid: 57dff709d0f753440b24fd459e59a25c, type: 3}
+  throwStrength: 0

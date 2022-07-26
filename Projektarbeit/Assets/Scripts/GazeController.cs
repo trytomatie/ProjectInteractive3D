@@ -20,7 +20,7 @@ public class GazeController : MonoBehaviour
     void Start()
     {
         mainCamera = Camera.main;
-        allInteractables = FindObjectsOfType<InteractableObject>(true).ToList();
+        allInteractables = FindObjectsOfType<InteractableObject>().Where(x => x.enabled).ToList();
     }
 
     private void FixedUpdate()
@@ -60,7 +60,7 @@ public class GazeController : MonoBehaviour
 
         RaycastHit hit;
 
-        if(Physics.Raycast(origin,forward, out hit, gazeDistance, layerMask) && hit.collider.gameObject.GetComponent<InteractableObject>() != null)
+        if(Physics.Raycast(origin,forward, out hit, gazeDistance, layerMask) && hit.collider.gameObject.GetComponent<InteractableObject>() != null && hit.collider.gameObject.GetComponent<InteractableObject>().enabled)
         {
             // commandPanel.SetActive(true);
             CurrentGazedObject = hit.collider.gameObject.GetComponent<InteractableObject>();

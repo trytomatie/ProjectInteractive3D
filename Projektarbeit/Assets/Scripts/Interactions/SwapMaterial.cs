@@ -9,7 +9,6 @@ public class SwapMaterial : InteractableObject
 
     public int currentIndex;
 
-
     public override void TriggerInteraction(GameObject source)
     {
         ChangeMaterial(currentIndex + 1);

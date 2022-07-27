@@ -8,6 +8,7 @@ public class ClockController : MonoBehaviour
     public Transform seconds;
     public Transform minutes;
     public Transform hours;
+
     // Start is called before the first frame update
     void Start()
     {

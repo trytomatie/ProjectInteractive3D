@@ -7,6 +7,7 @@ public class DoorInteraction : InteractableObject
 {
     public Animator anim;
     public bool animationCollision = false;
+
     private Collider coll;
 
     private void Start()

@@ -6,6 +6,7 @@ using TMPro;
 public class HoopScript : MonoBehaviour
 {
     public TextMeshPro counterText;
+
     private int counter = 0;
 
     private void OnTriggerEnter(Collider other)

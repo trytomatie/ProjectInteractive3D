@@ -48,10 +48,12 @@ public class PickupDestroyableInteractable : PickupInteractable
         {
             rb.velocity =  new Vector3(intactRb.velocity.x * Random.Range(-0.5f,0.5f), intactRb.velocity.y * Random.Range(-0.5f, 0.5f), intactRb.velocity.z * Random.Range(-0.5f, 0.5f));
         }
-
         intactRb.isKinematic = true;
         Invoke("DeactivateRbs", 4f);
-        holder.DropCurrentItem();
+        if(isPickedUp)
+        {
+            holder.DropCurrentItem();
+        }
         this.enabled = false;
     }
 

@@ -5,9 +5,9 @@ using TMPro;
 
 public class PickupInteractable : InteractableObject
 {
-    private bool isPickedUp;
     public float throwStrength = 0;
 
+    protected bool isPickedUp;
     protected Rigidbody rb;
 
     public void Start()

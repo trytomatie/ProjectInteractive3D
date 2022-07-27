@@ -6,14 +6,18 @@ using UnityEngine.UI;
 using System.Linq;
 public class GazeController : MonoBehaviour
 {
-    private Camera mainCamera;
+
     public float gazeDistance = 3;
     public LayerMask layerMask;
-    private InteractableObject currentGazedObject;
     public PickupInteractable pickedUpItem;
     public float itemGrabSpeed = 3;
-    private Rigidbody pickedUpItemRb;
     public List<InteractableObject> allInteractables;
+    public bool isSitting;
+
+    private InteractableObject currentGazedObject;
+    private Rigidbody pickedUpItemRb;
+    private Vector3 lastPosition;
+    private Camera mainCamera;
 
 
     // Start is called before the first frame update
@@ -25,7 +29,7 @@ public class GazeController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (pickedUpItem != null)
+        if (pickedUpItem != null || isSitting)
         {
             return;
         }
@@ -83,6 +87,16 @@ public class GazeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(isSitting == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                StandUp();
+            }
+
+            return;
+        }
+
         if (pickedUpItem != null)
         {
             Vector3 direction = ((mainCamera.transform.position + mainCamera.transform.forward * 1.5f) - pickedUpItem.transform.position) * itemGrabSpeed;
@@ -104,9 +118,14 @@ public class GazeController : MonoBehaviour
         pickedUpItem = item;
         pickedUpItemRb = pickedUpItem.GetComponent<Rigidbody>();
         pickedUpItemRb.useGravity = false;
+        HideAllReticles();
+    }
+
+    public void HideAllReticles()
+    {
         foreach (InteractableObject interactable in allInteractables)
         {
-           interactable.IsReachable = false;
+            interactable.IsReachable = false;
         }
     }
 
@@ -119,6 +138,25 @@ public class GazeController : MonoBehaviour
         pickedUpItem = null;
     }
 
+    public void SitDown(Transform sitPosition)
+    {
+        lastPosition = transform.position;
+
+        GetComponent<CharacterController>().enabled = false;
+        transform.position = sitPosition.position;
+        transform.rotation = sitPosition.rotation;
+        HideAllReticles();
+        isSitting = true;
+
+    }
+
+    public void StandUp()
+    {
+        transform.position = lastPosition;
+        GetComponent<CharacterController>().enabled = true;
+
+        isSitting = false;
+    }
 
     public InteractableObject CurrentGazedObject 
     { get => currentGazedObject; 

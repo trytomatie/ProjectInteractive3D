@@ -5,6 +5,7 @@ using UnityEngine;
 public class ReticleUI : MonoBehaviour
 {
     public Transform target;
+
     private RectTransform myTransform;
     private Camera mainCamera;
     // Start is called before the first frame update

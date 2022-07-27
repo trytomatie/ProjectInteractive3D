@@ -23,12 +23,16 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
+    private GazeController gc;
+
 #if ENABLE_INPUT_SYSTEM
     InputAction movement;
     InputAction jump;
 
     void Start()
     {
+        gc = GetComponent<GazeController>();
+
         movement = new InputAction("PlayerMovement", binding: "<Gamepad>/leftStick");
         movement.AddCompositeBinding("Dpad")
             .With("Up", "<Keyboard>/w")
@@ -51,6 +55,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (gc.isSitting == true)
+        {
+            return;
+        }
+
         float x;
         float z;
         bool jumpPressed = false;

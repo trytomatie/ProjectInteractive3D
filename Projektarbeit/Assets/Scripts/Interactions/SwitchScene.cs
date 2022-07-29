@@ -12,7 +12,7 @@ public class SwitchScene : InteractableObject
 
     public override void TriggerInteraction(GameObject source)
     {
-        StartCoroutine(LoadingScreen(sceneToBeLoaded));
+        if(async == null) StartCoroutine(LoadingScreen(sceneToBeLoaded));
     }
 
     private IEnumerator LoadingScreen(int sceneIndex)

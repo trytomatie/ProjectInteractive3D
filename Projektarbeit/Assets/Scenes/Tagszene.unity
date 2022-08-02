@@ -10213,7 +10213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617994432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.212, y: -0.212, z: 0.003}
+  m_LocalPosition: {x: -0.2119999, y: -0.32999992, z: 0.002998352}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1633663322}
@@ -18584,29 +18584,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   commandText: Toggle Water
   reticle: {fileID: 983995787044393173, guid: 57dff709d0f753440b24fd459e59a25c, type: 3}
-  handleAnim: {fileID: 932674007}
+  handleAnim: {fileID: 0}
   waterLevelAnim: {fileID: 1928215856}
   particleSys: {fileID: 915234701}
   waterLevelRiseRate: 0.004
---- !u!95 &932674007
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 932674001}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &937405583
 PrefabInstance:
   m_ObjectHideFlags: 0

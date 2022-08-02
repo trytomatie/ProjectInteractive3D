@@ -19,7 +19,6 @@ public class SinkInteractable : InteractableObject
         {
             isOn = false;
             particleSys.Stop();
-            handleAnim.SetBool("IsOn",isOn);
             CancelInvoke("RiseWaterLevel");
             InvokeRepeating("LowerWaterLevel", 0.05f, 0.05f);
         }
@@ -27,9 +26,12 @@ public class SinkInteractable : InteractableObject
         {
             isOn = true;
             particleSys.Play();
-            handleAnim.SetBool("IsOn", isOn);
             CancelInvoke("LowerWaterLevel");
             InvokeRepeating("RiseWaterLevel", 0.05f, 0.05f);
+        }
+        if(handleAnim != null)
+        {
+            handleAnim.SetBool("IsOn", isOn);
         }
     }
 
